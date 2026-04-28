@@ -1,6 +1,7 @@
 # BridgeSTM
 BridgeSTM：A Low-Cost and Easy-to-Maintain Scanning Tunneling Microscope with a Flexure-Hinge Coarse-Approach Mechanism
 
+V1.0
 Introduction
 The Scanning Tunneling Microscope (STM) is a crucial experimental instrument that achieves
 atomic-scale surface imaging and material characterization by measuring the tunneling current
@@ -59,3 +60,47 @@ no. 8, 2017, article 238, doi:10.3390/mi8080238.
 [6]Yong, Yuen Kuan, et al. “High-Speed Flexure-Guided Nanopositioning: Mechanical Design
 and Control Issues.” Review of Scientific Instruments, vol. 83, no. 12, 2012, article 121101,
 doi:10.1063/1.4765048.
+
+Updated:
+# BridgeSTM V2.0
+
+BridgeSTM V2 is the second-stage development of my low-cost educational scanning tunneling microscope project. This version focuses on upgrading the system from a basic actuator-and-bias prototype into a documented closed-loop STM development platform.
+
+## V2 Update Overview
+
+BridgeSTM V1 verified several basic subsystems:
+
+- sample bias output around 3V;
+- single-quadrant piezo actuation;
+- coarse motor control;
+- early hardware control experiments.
+
+However, V1 did not include the core closed-loop STM chain. BridgeSTM V2 is designed to fill that gap.
+
+The main V2 updates include:
+
+- building a tunneling current measurement path;
+- designing and testing a transimpedance amplifier, or TIA;
+- adding ADC-based current and voltage logging;
+- developing a Z-axis feedback simulation;
+- preparing firmware for constant-current feedback control;
+- organizing motor coarse approach into a safer state-machine structure;
+- separating X, Y, and Z piezo control concepts;
+- designing a new mechanical structure with a future Z-axis thermal drift compensation stage;
+- documenting safety limits for bias, motor motion, Z command, and current threshold;
+- creating daily engineering logs for hardware, firmware, software, and mechanical progress.
+
+The key V2 control chain is:
+sample bias
+↓
+tunneling current
+↓
+transimpedance amplifier
+↓
+ADC measurement
+↓
+Z feedback controller
+↓
+DAC output
+↓
+Z piezo actuation
