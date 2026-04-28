@@ -47,16 +47,21 @@ simplified scanning probe instrument systems.
 under Compound Loads Based on the Topology Optimisation of Flexure Hinge and Its
 Application in Micro-Force Sensing.” Smart Materials and Structures, vol. 33, no. 1, 2024,
 article 015020, doi:10.1088/1361-665X/aaf1316.
+
 [2]Lavanya, S. B., and G. R. Jayanth. “Modeling and Optimal Design of Bridge-Type
 Displacement Amplifier.” Recent Advances in Machines and Mechanisms, edited by V . K. Gupta
 et al., Springer, 2023, pp. 117–124. doi:10.1007/978-981-19-3716-3_9.
+
 [3]Slusher, Richard B. Motion Reducing Flexure Structure. U.S. Patent No. 5,969,892, U.S.
 Patent and Trademark Office, 19 Oct. 1999.
+
 [4]Warden, R. M. “Cryogenic Nano-Actuator for JWST.” Proceedings of the 38th Aerospace
 Mechanisms Symposium, NASA Langley Research Center, 2006, pp. 239–252.
+
 [5]Wei, H., et al. “Development of Piezo-Driven Compliant Bridge Mechanisms: General
 Analytical Equations and Optimization of Displacement Amplification.” Micromachines, vol. 8,
 no. 8, 2017, article 238, doi:10.3390/mi8080238.
+
 [6]Yong, Yuen Kuan, et al. “High-Speed Flexure-Guided Nanopositioning: Mechanical Design
 and Control Issues.” Review of Scientific Instruments, vol. 83, no. 12, 2012, article 121101,
 doi:10.1063/1.4765048.
